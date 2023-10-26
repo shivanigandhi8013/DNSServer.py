@@ -49,7 +49,7 @@ def decrypt_with_aes(encrypted_data, password, salt):
 
 salt = 'Tandon'.encode('utf-8') # Remember it should be a byte-object
 password = 'sg8013@nyu.edu' #might change
-input_string = 'AlwaysWatching'
+input_string = str('AlwaysWatching')
 
 encrypted_value = encrypt_with_aes(input_string, password, salt)  # test function
 decrypted_value = decrypt_with_aes(encrypted_value, password, salt)  # test function
