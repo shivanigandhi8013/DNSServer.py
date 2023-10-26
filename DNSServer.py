@@ -94,7 +94,7 @@ dns_records = {
     'yahoo.com.': {
         dns.rdatatype.A: '192.168.1.105',
     },
-    'nyu.edu.': {s
+    'nyu.edu.': {
         dns.rdatatype.A: '192.168.1.106',
         dns.rdatatype.TXT: ('AlwaysWatching',),
         dns.rdatatype.MX: [(10, 'mxa-00256a01.gslb.pphosted.com.')],
